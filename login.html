@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="parentRe">
+      <form class="form" id="loginForm">
+        <p class="title">Login</p>
+        <p class="message">Welcome to our website fill fiald to login.</p>
+        <div class="flex"></div>
+
+        <label>
+          <input
+            class="input"
+            type="text"
+            id="loginUsername"
+            placeholder=""
+            required
+          />
+          <span>username</span>
+        </label>
+
+        <label>
+          <input
+            class="input"
+            type="password"
+            id="loginPassword"
+            placeholder=""
+            required
+          />
+          <span>Password</span>
+        </label>
+
+        <button type="submit" class="submit">Submit</button>
+        <p class="signin">
+          I do not have an acount ? <a href="./register.html">Regiser</a>
+        </p>
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

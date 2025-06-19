@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+  /* Styles for contactHero section */
+.contactHero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+                }
+
+.iformationPart {
+    flex: 1;
+    margin-right: 20px;
+                    }
+.iformationPart h3 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    margin: 25px;
+                    }
+
+.iformationPart div h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+                        }
+
+.iformationPart div img {
+    /* margin-right: 25px; */
+    margin: 15px;
+                            }
+
+    .contactForm {
+    flex: 1;
+                    }
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+                        }
+
+#contactForm textarea {
+    resize: vertical;
+                        }
+
+#contactForm button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff3856;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+                        }
+
+#contactForm button:hover {
+    background-color: #c92e46;
+                            }
+.icons{
+    display: flex;
+    justify-items: center;
+    cursor: pointer;
+    }
